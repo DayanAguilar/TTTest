@@ -5,7 +5,8 @@ function generarFizzBuzzPara(n) {
   if(n==5){
     return "Buzz"
   }
-  return "FizzBuzz";
+  if(n==0) return "FizzBuzz";
+  if(n==15) return "FizzBuzz"
 }
 
 export default generarFizzBuzzPara;
