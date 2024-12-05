@@ -22,6 +22,9 @@ describe("FizzBuzz", () => {
   it("Deberia mostrar Fizz porque es el numero 10", () => {
     expect(generarFizzBuzzPara(10)).toEqual("Buzz");
   });
+  it("Deberia mostrar el numero porque es el numero 2 y no es multiplo de 3 y 5", () => {
+    expect(generarFizzBuzzPara(2)).toEqual(2);
+  });
 });
 
 
